@@ -1,0 +1,20 @@
+{
+  "name": "cypress-testing-project",
+  "version": "1.0.0",
+  "description": "Automated software testing with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testing",
+    "cypress",
+    "automation"
+  ],
+  "author": "Rajiv Singh",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.10.0",
+    "prettier": "^2.0.5"
+  }
+}
