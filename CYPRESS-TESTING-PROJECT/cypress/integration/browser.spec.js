@@ -34,4 +34,17 @@ describe('Browser actions test', () => {
         cy.reload();
         cy.log('After reload');
     })
+
+    //Assert browser content type
+    it('should verify browser content', () => {
+        cy.visit('https://www.example.com')
+        cy.document()
+            .its('contentType')
+            .should('eq', 'text/html')
+
+        cy.document()
+            .should('have.property', 'charset')
+            .and('eq', 'UTF-8')
+    })
+        
 })
