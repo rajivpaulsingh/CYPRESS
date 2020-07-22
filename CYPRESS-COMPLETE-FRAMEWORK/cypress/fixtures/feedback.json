@@ -1,0 +1,6 @@
+{
+  "name": "test name",
+  "email": "testemail@email.com",
+  "subject": "test randoms subject",
+  "message": "Hello, this is how an automation framework looks like"
+}
