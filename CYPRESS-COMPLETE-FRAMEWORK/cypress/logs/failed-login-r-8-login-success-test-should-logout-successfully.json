@@ -1,0 +1,13 @@
+{
+  "specName": "login.spec.js",
+  "title": "should logout successfully",
+  "suiteName": "Login Success Test",
+  "testId": "r8",
+  "testName": "Login Success Test should logout successfully",
+  "testError": "Timed out retrying: Expected to find element: `#logout_link-FAILED`, but never found it.",
+  "testCommands": [
+    "contains username",
+    "click {animationdistancethreshold: 20}",
+    "get #logout_link-FAILED"
+  ]
+}

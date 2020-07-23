@@ -23,4 +23,10 @@ export default class Navbar {
         cy.contains('username').click()
         cy.get('#logout_link').click()
     }
+
+    //For failure log
+    // static logout() {
+    //     cy.contains('username').click()
+    //     cy.get('#logout_link-FAILED').click()
+    // }
 }
