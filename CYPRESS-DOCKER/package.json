@@ -1,13 +1,17 @@
 {
-  "name": "cypress-e2e",
+  "name": "cypress-docker",
   "version": "1.0.0",
-  "description": "Cypress end to end automation framework",
+  "description": "Cypress with Docker",
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "dockerCommand": "docker build -t cypressrajiv ."
   },
+  "keywords": [
+    "Cypress",
+    "Docker"
+  ],
   "author": "Rajiv Singh",
   "license": "ISC",
   "dependencies": {
